@@ -18,7 +18,7 @@ HTML, CSS, JavaScript
 
 <p align="center">
   <img alt="calculator" src="/github/cover.png" width="100%">
-  <img alt="calculator" src="/github/cover-2.png" width="100%">
+  
 </p>
 
 ## 🚀 Tecnologias
