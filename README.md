@@ -1,7 +1,7 @@
-<h1 align="center"> IMC Calculator </h1>
+<h1 align="center"> Timer Pomodoro </h1>
 
 <p align="center">
-HTML, CSS, JavaScript
+JavaScript, HTML, CSS.
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@ HTML, CSS, JavaScript
 
 <p align="center">
   <img alt="calculator" src="/github/cover.png" width="100%">
-  
+  <img alt="calculator" src="/github/cover-2.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto construido para aplicação de JavaScript utilizando ES6 Modules
+Timer inspirado em Pomodoro, permitindo um input de tempo que conta regressivamente. Também possui sons de fundo e sons ao toque dos botões.
 
 ## :memo: Licença
 
