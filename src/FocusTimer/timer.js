@@ -1,10 +1,31 @@
 import state from './state.js'
 import * as el from './elements.js'
+import { reset } from './actions.js'
+import { endAudio } from './sounds.js'
 
 export function countdown() {
   if(!state.isRunning) {
     return
   }
+
+  let minutes = Number(el.minutes.textContent)
+  let seconds = Number(el.seconds.textContent)
+
+  seconds--
+  
+  if(seconds < 0) {
+    seconds = 59
+    minutes--
+  }
+  if (minutes < 0){
+    reset()
+    endAudio.play()
+    return
+  }
+
+
+
+  updateDisplay(minutes, seconds)
 
   setTimeout(() =>  countdown(), 1000)
   

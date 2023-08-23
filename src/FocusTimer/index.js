@@ -9,6 +9,7 @@ state.seconds = seconds
 timer.updateDisplay()
 
 events.registerControls()
+events.setMinutes()
 
 }
 
